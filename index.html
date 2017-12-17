@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>DBZ Grant Whish</title>
+<link rel="icon" href="dbzgw/icon.png" type="image/png sizes="30x27">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+<body oncontextmenu="return false;">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<img src="dbzgw/logo.png"  style="width:300px;height:100px;"> 
+<center>
+<style>
+    /* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+} 
+</style>
+<!--super shenron dragon-->
+<script>
+function myFunction() { var popup = document.getElementById("myPopup"); popup.classList.toggle("show"); }
+</script>
+<center>
+<br>
+  <div class="popup" onclick="myFunction()">
+  <span class="popuptext" id="myPopup">Ask My Dragon's To grant your whish</span>
+  <img src="dbzgw/ss.png"  style="width:500px;height:200px;"> 
+</div>
+</center>
+<!---------------------------->
+
+<br>
+<img src="dbzgw/db.png"  style="width:200px;height:100px;">
+<br>
+
+<!--green shenron dragon-->
+<audio id="sound" src="dbzgw/granted.mp3" preload="auto"></audio>
+<div class="popup" onclick="shenronFunction(); document.getElementById('sound').play();">
+<span class="popuptext" id="mPopup">Take care of my Dragon ball's</span>
+<img src="dbzgw/dg.png"  style="width:200px;height:200px;" class="btn btn-outline-success btn-lg">
+</div>
+<script>
+function shenronFunction() { var popup = document.getElementById("mPopup"); popup.classList.toggle("show"); }
+</script>
+<!---------------------------->
+
+<!--dbzs episode puranga dragon-->
+<audio id="sound1" src="dbzgw/gw.mp3" preload="auto"></audio>
+<img src="dbzgw/dgn.png"  style="width:200px;height:200px;" class="btn btn-outline-warning btn-lg" onclick="document.getElementById('sound1').play(); setTimeout(episodeFunction, 5000);">
+<script>
+function episodeFunction(){
+window.location="https://www9.kickassanime.io/anime/dragon-ball-super/";
+
+}
+</script>
+<!---------------------------->
+
+<!--search engine red dragon-->
+<audio id="sound1" src="dbzgw/gw.mp3" preload="auto"></audio>
+<img src="dbzgw/dgr.png"  style="width:200px;height:200px;" class="btn btn-outline-danger btn-lg" onclick="document.getElementById('sound1').play(); setTimeout(searchFunction, 5000);">
+<script>
+function searchFunction(){
+window.location="http://dbzs-searchengine.netlify.com";
+
+}
+</script>
+<!---------------------------->
+
+<body background="dbzgw/black.jpg">
+<center><br>
+<footer><font color="white">Copyright &copy; DBZ (BY:- M.Raahim Khattak)Grant Your Whish 2017 &bull;All rights reserved</footer>
+</center>
+</body>
+</html> 
